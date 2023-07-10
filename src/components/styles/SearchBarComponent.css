@@ -1,5 +1,6 @@
 .search {
     background-color: rgb(109, 151, 104);
+    background-image: url("https://img.freepik.com/free-photo/wooden-table-looking-out-defocussed-room-interior_1048-11830.jpg?w=2000&t=st=1689021429~exp=1689022029~hmac=78f636c1ae15fb7349993198615adcd8414e145615c0ceb239476c06748816da");
     height: auto;
     width: 100%;
     top: 0px;
@@ -11,10 +12,17 @@
 .subHeader {
     display: flex;
     flex-direction: column wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    bottom: 10px;
+    color: white;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
 .buttonSearch {
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: rgb(208, 189, 66);
     color: white;
     border:none; 
@@ -26,6 +34,25 @@
     cursor: pointer;
 }
 
-.buttonSearch :hover :active {
-    background-color: black;
+.buttonSearch :hover {
+    background-color: rgb(78, 78, 19);
+}
+
+.headButton {
+    margin-top: 3rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.inputs {
+    margin-top: 2rem;
+}
+
+.inputs input {
+    border-radius: 5px;
+    
 }
