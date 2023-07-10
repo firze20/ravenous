@@ -1,0 +1,9 @@
+.header {
+    background-color: rgb(168, 153, 58);
+    color: white;
+    position: relative;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+}

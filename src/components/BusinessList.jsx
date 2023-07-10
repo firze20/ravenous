@@ -27,6 +27,7 @@ export const BusinessList = () => {
     <div className="grid-container">
       {restaurants.map((restaurant) => (
         <Business
+          key={restaurant.name}
           name={restaurant.name}
           address={restaurant.address}
           city={restaurant.city}
