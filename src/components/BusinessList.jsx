@@ -13,14 +13,14 @@ export const BusinessList = () => {
       zipcode: "7010-102",
     },
     {
-        name: "Dom Pedro",
-        address: "Ramada",
-        city: "Odivelasr",
-        state: "Lisboa",
-        category: "Comida Portuguesa",
-        rating: 5,
-        zipcode: "1027-090",
-      },
+      name: "Dom Pedro",
+      address: "Ramada",
+      city: "Odivelasr",
+      state: "Lisboa",
+      category: "Comida Portuguesa",
+      rating: 5,
+      zipcode: "1027-090",
+    },
   ];
 
   return (

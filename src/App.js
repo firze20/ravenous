@@ -1,11 +1,12 @@
 import "./components/styles";
 // Sub Components
 
-import { BusinessList } from "./components";
+import { BusinessList, SearchBarComponent } from "./components";
 
 function App() {
   return (
     <div>
+      <SearchBarComponent />
       <BusinessList />
     </div>
   );

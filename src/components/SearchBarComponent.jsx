@@ -2,8 +2,8 @@ import React from "react";
 
 export const SearchBarComponent = () => {
     return(
-        <div>
-            
+        <div className="search">
+            <button>Let's Go</button>
         </div>
     )
 }
