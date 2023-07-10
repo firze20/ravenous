@@ -34,8 +34,8 @@
     cursor: pointer;
 }
 
-.buttonSearch :hover {
-    background-color: rgb(78, 78, 19);
+.buttonSearch:hover {
+    background-color: rgb(124, 124, 36);
 }
 
 .headButton {
