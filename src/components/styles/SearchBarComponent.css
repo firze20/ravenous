@@ -38,6 +38,13 @@
     background-color: rgb(124, 124, 36);
 }
 
+
+.buttonSearch:active {
+    box-shadow: 2px 2px 5px black;
+    opacity: 1;
+    transition: 0s;
+}
+
 .headButton {
     margin-top: 3rem;
     cursor: pointer;
@@ -49,10 +56,12 @@
 }
 
 .inputs {
-    margin-top: 2rem;
+    margin: 2rem auto auto auto;
 }
 
 .inputs input {
     border-radius: 5px;
-    
+    width: 20rem;
+    height: 2rem;
+    margin-right: 2cap;
 }

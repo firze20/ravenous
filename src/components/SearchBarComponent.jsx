@@ -24,11 +24,11 @@ export const SearchBarComponent = () => {
       <div className="inputs">
         <input
           onChange={(e) => setRestauraunt(e.target.value)}
-          placeholder="Restaurant"
+          placeholder="Search Business"
         />
         <input
           onChange={(e) => setLocation(e.target.value)}
-          placeholder="Location"
+          placeholder="Where?"
         />
       </div>
       <button className="buttonSearch">Let's Go</button>
